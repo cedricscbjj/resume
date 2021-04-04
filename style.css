@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Josefin+Sans&display=swap');
+
+
+
+      @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+
+
+
+
+
+body{
+background:  url("marbrenoir.jpg");
+	color: white;
+}
+
+.container-sm {
+  max-width: 600px;
+	  margin: auto;
+background-color: black;
+
+    font-family: 'Josefin Sans', sans-serif;
+	
+			}
+
+
+#higuys{
+    font-family: 'Monoton', cursive;
+    color:#DAA520;
+    font-size: 50px;
+}
+
+h1{
+    font-family: 'Zilla Slab Highlight', cursive;
+text-align: center;
+    font-size: 77px;
+}
+
+
+
+hr{
+   border: 10px solid #DAA520	;
+  border-radius: 5px;
+}
+
+#interets{
+		display:none;
+		
+	}
+
+
+#cequejerecherche{
+   font-size: 30px;  
+    
+    
+}
+
+
+#presentation{
+    font-size:60px;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+
+#presentation2{
+    font-size:60px;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+
+
+
+
+
+#weshlafamillerecrutezmoi{
+        font-size: 50px;
+
+    
+}
+
+
+
+#a{
+    color:blue;
+}
+
+
+
+#prenom{
+    border: solid #DAA520;
+    font-size:95px;
+          font-family: 'Montserrat Subrayada', sans-serif;
+    
+        		text-transform: uppercase;
+            background: linear-gradient(to right, #7b7d7d
+ 10%, #fff 50%, #d4e6f1  60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 4s linear infinite;
+		display: inline-block;
+    
+    
+    
+
+    
+    
+    
+    
+}
+  @keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}  
+
+
+
+.picture{
+     border: 10px solid #DAA520	; 
+}
+
+#picture {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+    .bottom-left {
+        
+                font-family: 'Paytone One', sans-serif;
+    
+font-size:70px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+
+    #disclaimer{
+        font-size:16px;
+        animation-duration: .5s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+  color: 
+    }
+@keyframes clignoter {
+  0%   { color:#000000; }
+  40%   {color:#A2A594; }
+  100% { opacity:#000000; }
+}
+
+
+#ici{
+       cursor: pointer; 
+
+}
+
+
+
+
+.aproposdemoi{
+    
+   cursor: pointer; 
+   
+}
+
+a { color: white; }
+
+ 
+
+github{
+    
+}
+
+
+
+
+linkedin{
+    
+}
+

@@ -32,6 +32,12 @@ function matroncheenphoto(){
 
 
 
+ const pageBody = document.querySelector("body");
+    function gfg_Run() {
+      let color = '#' + (Math.random() * 0xFFFFFF << 0).toString(16);
+      pageBody.style.background = color;
+      document.getElementById("message").innerHTML = "Current Background Color is " + color;
+    }
 
 
 

@@ -98,7 +98,23 @@ background-color: black;
         <br>
         
         	<div class="row">
+                <h1 class="text-right text-capitalize author"><span class="quote-author ml-3 " id="yep">Html, Css?</span></h1>
+                <h3 class="text-muted"><span class="quote-icon mr-3"></span><span id="quote">En 2014 j'ai participé à la refonte totale du site web de Go Sport en tant que stagiaire webmarketeur, analyse de l'UI/UX design, création d'une landing page, nettoyage des liens hypertexte caduque etc c'est la première fois que je touchais à du "code"...
+          </span></h3>
+               
+                <br>
+                <br>
+                <br>
+                <p> <button id="generate-btn" type="button" class="btn btn-light"> Quelques faits d'armes sur moi</button> </p>
                 
+                
+                
+                
+                
+                <br>
+                <br>
+                <br>
+                <br>
 <div class="col-12">
            <h1> EXPERIENCES PROFESSIONNELLES </h1>     
                   <ul>
@@ -226,6 +242,61 @@ background-color: black;
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<script src="script.js"></s cript>
+	<script >
+	  
+	  
+	     (function() {
+  const quotes = [
+    {
+      quote:
+        "J'ai participé à plusieurs éditions du 'Start up Weekend' dans lequel je m'occupais de la gestion de projet web dans un laps de temps très limité! Sueurs garantis mais projet toujours bouclé à temps!",
+      author: "Gestion de projet express!"
+    },
+    {
+      quote:
+        " Etant plus jeune j'ai eu l'occasion d'exercer le métier de vendeur dans un magasin de sport et je faisais des démonstrations de produits devant un public épaté, donc lire un Powerpoint face à 2O personnes ca ne me fait pas peur. ",
+      author: "La prise de parole en public c'est mon dada"
+    },
+    {
+      quote:
+        "En 2015 j'ai été chargé clientèle pour une start up qui voyait son chiffre d'affaire exploser.. cela s'accompagnait également d'une hausse exponentielle de commentaires négatifs par rapport au SAV, je devais donc nettoyer les forums, les réseaux sociaux, afin de répondre aux clients mécontent et ainsi participer à améliorer l'image de l'entreprise sur le Net.",
+      author: "Relation clientèle"
+    },
+    {
+      quote: "Faire une bannière? Réaliser un support de communication via Adobe? Créer un petit Gif? Je sais faire. ",
+      author: "Je sais à quoi correspond un calque sur Photoshop"
+    },
+    {
+      quote:
+        "Certes je n'ai pas la prose de Victor Hugo ou la poésie de Guillaume Apollinaire mais je sais écrire des textes. Au fait savez vous que j'ai un site Wordpress sur mon sport favori? Je sais meme faire des mini tutoriel ====> 'https://cedricscbjj.github.io/10MINUTESCHRONO/' ",
+      author: "Je me debrouille plutot bien sur Wordpress"
+    },
+ 
+  ];
+
+  const btn = document.getElementById("generate-btn");
+
+  btn.addEventListener("click", function() {
+    let random = Math.floor(Math.random() * quotes.length);
+    console.log(random);
+
+    document.getElementById("quote").textContent = quotes[random].quote;
+    document.querySelector(".author").textContent = quotes[random].author;
+  });
+})();
+      
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  </script>
   </body>
 </html>
